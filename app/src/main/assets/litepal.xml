@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+<!--    设置数据库名-->
+    <dbname value="cool_weather" />
+
+    <version value="2" />
+
+    <list>
+
+        <mapping class="com.coolweather.android.db.City" />
+
+        <mapping class="com.coolweather.android.db.Save_city" />
+
+    </list>
+
+</litepal>

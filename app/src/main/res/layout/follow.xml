@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关注列表"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/follow_back"
+        android:layout_width="77dp"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:background="@drawable/f2"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/follow_listview"/>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/cityname"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/nowtime"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/nowtext"
+            android:layout_width="161dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/nowtemp"
+            android:layout_width="161dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/nowshidu"
+            android:layout_width="161dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/forecast"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="未来三天天气"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/f1_date"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f1_tempmax"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f1_tempmin"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f1_text"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/f2_date"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f2_tempmax"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f2_tempmin"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f2_text"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/f3_date"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f3_tempmax"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f3_tempmin"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/f3_text"
+                android:layout_width="137dp"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/b_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="返回"
+                android:background="@drawable/f2"/>
+
+            <Button
+                android:id="@+id/b_refresh"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="刷新"
+                android:background="@drawable/f2"/>
+
+            <Button
+                android:id="@+id/b_folow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="关注"
+                android:background="@drawable/f2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
